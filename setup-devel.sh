@@ -20,6 +20,8 @@ source ./scripts/setup-postgresql.sh
 source ./scripts/setup-buildessential.sh
 source ./scripts/setup-python.sh
 
+exec bash
+
 # Setup Taiga
 source ./scripts/setup-frontend.sh
 source ./scripts/setup-backend.sh
